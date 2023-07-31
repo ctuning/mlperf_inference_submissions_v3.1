@@ -33,3 +33,189 @@ Cloning into 'inference'...
 [2023-07-31 08:54:14,063 submission_checker.py:3385 INFO] Network Systems=0, Network Power Systems=0
 [2023-07-31 08:54:14,063 submission_checker.py:3390 INFO] ---
 [2023-07-31 08:54:14,063 submission_checker.py:3395 INFO] SUMMARY: submission looks OK
+Cloning into 'inference'...
+
+[notice] A new release of pip is available: 23.0.1 -> 23.2.1
+[notice] To update, run: pip install --upgrade pip
+[2023-07-31 17:13:54,677 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream
+[2023-07-31 17:13:54,681 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,683 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,685 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,686 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,687 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,697 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,732 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:54,733 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:54,733 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:54,733 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:54,733 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:54,751 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:54,751 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:54,753 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:54,794 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:54,794 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:54,795 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:54,795 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:54,795 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline
+[2023-07-31 17:13:54,798 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,799 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,801 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,801 submission_checker.py:1795 INFO] Target latency: None, Latency: 5452664607670, Scenario: Offline
+[2023-07-31 17:13:54,802 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,803 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,810 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:54,896 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:54,897 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:54,897 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:54,897 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:54,897 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:54,995 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:54,995 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:55,000 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:55,081 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:55,081 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:55,081 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:55,081 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:55,082 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream
+[2023-07-31 17:13:55,086 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,088 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,091 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,093 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,095 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,102 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,113 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:55,113 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:55,113 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:55,113 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:55,113 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:55,131 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:55,131 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:55,133 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:55,174 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:55,174 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:55,174 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:55,174 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:55,174 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline
+[2023-07-31 17:13:55,178 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,180 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,182 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,182 submission_checker.py:1795 INFO] Target latency: None, Latency: 6369184516567, Scenario: Offline
+[2023-07-31 17:13:55,184 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,186 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,194 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,294 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:55,295 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:55,295 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:55,295 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:55,295 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:55,418 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:55,418 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:55,424 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:55,515 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:55,515 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:55,515 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:55,515 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:55,515 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream
+[2023-07-31 17:13:55,564 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,568 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,569 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,570 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,571 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,577 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,587 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:55,587 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:55,587 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:55,587 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:55,587 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:55,609 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:55,610 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:55,614 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:55,687 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:55,688 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:55,688 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:55,688 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:55,688 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream
+[2023-07-31 17:13:55,734 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,738 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,740 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,740 submission_checker.py:2668 INFO] open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/performance/run_1 has inferred results, qps=3673.790808
+[2023-07-31 17:13:55,741 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,742 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,748 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,759 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:55,759 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:55,759 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:55,759 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:55,759 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:55,776 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:55,776 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:55,778 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:55,817 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:55,817 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:55,817 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:55,817 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:55,817 submission_checker.py:2532 INFO] Detected power logs for open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline
+[2023-07-31 17:13:55,863 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,867 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,868 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,868 submission_checker.py:1795 INFO] Target latency: None, Latency: 9636413001579, Scenario: Offline
+[2023-07-31 17:13:55,869 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,870 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline/performance/ranging/mlperf_log_detail.txt.
+[2023-07-31 17:13:55,876 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,028 power_checker.py:753 INFO] [x] Check client sources checksum
+[2023-07-31 17:13:56,029 power_checker.py:753 INFO] [x] Check server sources checksum
+[2023-07-31 17:13:56,029 power_checker.py:753 INFO] [x] Check PTD commands and replies
+[2023-07-31 17:13:56,029 power_checker.py:753 INFO] [x] Check UUID
+[2023-07-31 17:13:56,029 power_checker.py:753 INFO] [x] Check session name
+[2023-07-31 17:13:56,193 power_checker.py:753 INFO] [x] Check time difference
+[2023-07-31 17:13:56,193 power_checker.py:753 INFO] [x] Check client server messages
+[2023-07-31 17:13:56,201 power_checker.py:753 INFO] [x] Check results checksum
+[2023-07-31 17:13:56,316 power_checker.py:753 INFO] [x] Check errors and warnings from PTD logs
+[2023-07-31 17:13:56,316 power_checker.py:753 INFO] [x] Check PTD configuration
+[2023-07-31 17:13:56,316 power_checker.py:753 INFO] [x] Check debug is disabled on server-side
+[2023-07-31 17:13:56,316 power_checker.py:788 INFO] 
+All checks passed
+[2023-07-31 17:13:56,328 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,330 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,331 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,342 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,344 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,345 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,356 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline/accuracy/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,358 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,359 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 17:13:56,359 submission_checker.py:1795 INFO] Target latency: None, Latency: 3495753464402, Scenario: Offline
+[2023-07-31 17:13:56,359 submission_checker.py:3257 INFO] ---
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream 1462.69899
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline 6.95999
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream 185.753112
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/offline 4.464610 with power_metric = 196.506200 and power_efficiency (inf/J) = 0.021884
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v1.13.1-default_config/rnnt/singlestream 402.949448 with power_metric = 44062.134904 and power_efficiency (inf/J) = 0.022695
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/offline 3.820590 with power_metric = 336.224696 and power_efficiency (inf/J) = 0.011584
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream 275.322649 with power_metric = 89810.321241 and power_efficiency (inf/J) = 0.011135
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/multistream 3673.790808 with power_metric = 1022617.370189 and power_efficiency (inf/J) = 0.007823
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/offline 2.526270 with power_metric = 347.713133 and power_efficiency (inf/J) = 0.007295
+[2023-07-31 17:13:56,360 submission_checker.py:3261 INFO] Results open/cTuning/results/amd_ryzen_workstation-reference-cpu-pytorch-v2.0.1-default_config/retinanet/singlestream 437.916361 with power_metric = 127827.171274 and power_efficiency (inf/J) = 0.007823
+[2023-07-31 17:13:56,360 submission_checker.py:3263 INFO] ---
+[2023-07-31 17:13:56,360 submission_checker.py:3348 INFO] ---
+[2023-07-31 17:13:56,361 submission_checker.py:3349 INFO] Results=10, NoResults=0, Power Results=7
+[2023-07-31 17:13:56,361 submission_checker.py:3356 INFO] ---
+[2023-07-31 17:13:56,361 submission_checker.py:3357 INFO] Closed Results=0, Closed Power Results=0
+
+[2023-07-31 17:13:56,361 submission_checker.py:3362 INFO] Open Results=10, Open Power Results=7
+
+[2023-07-31 17:13:56,361 submission_checker.py:3367 INFO] Network Results=0, Network Power Results=0
+
+[2023-07-31 17:13:56,361 submission_checker.py:3372 INFO] ---
+[2023-07-31 17:13:56,361 submission_checker.py:3374 INFO] Systems=3, Power Systems=2
+[2023-07-31 17:13:56,361 submission_checker.py:3375 INFO] Closed Systems=0, Closed Power Systems=0
+[2023-07-31 17:13:56,361 submission_checker.py:3380 INFO] Open Systems=3, Open Power Systems=2
+[2023-07-31 17:13:56,361 submission_checker.py:3385 INFO] Network Systems=0, Network Power Systems=0
+[2023-07-31 17:13:56,361 submission_checker.py:3390 INFO] ---
+[2023-07-31 17:13:56,361 submission_checker.py:3395 INFO] SUMMARY: submission looks OK
