@@ -1,0 +1,35 @@
+Cloning into 'inference'...
+
+[notice] A new release of pip is available: 23.0.1 -> 23.2.1
+[notice] To update, run: pip install --upgrade pip
+[2023-07-31 08:54:14,027 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,030 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,031 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,043 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream/accuracy/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,045 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,046 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,058 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline/accuracy/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,060 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,061 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline/performance/run_1/mlperf_log_detail.txt.
+[2023-07-31 08:54:14,062 submission_checker.py:1795 INFO] Target latency: None, Latency: 3495753464402, Scenario: Offline
+[2023-07-31 08:54:14,062 submission_checker.py:3257 INFO] ---
+[2023-07-31 08:54:14,062 submission_checker.py:3261 INFO] Results open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream 1462.69899
+[2023-07-31 08:54:14,062 submission_checker.py:3261 INFO] Results open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline 6.95999
+[2023-07-31 08:54:14,062 submission_checker.py:3261 INFO] Results open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream 185.753112
+[2023-07-31 08:54:14,062 submission_checker.py:3263 INFO] ---
+[2023-07-31 08:54:14,062 submission_checker.py:3348 INFO] ---
+[2023-07-31 08:54:14,062 submission_checker.py:3349 INFO] Results=3, NoResults=0, Power Results=0
+[2023-07-31 08:54:14,062 submission_checker.py:3356 INFO] ---
+[2023-07-31 08:54:14,062 submission_checker.py:3357 INFO] Closed Results=0, Closed Power Results=0
+
+[2023-07-31 08:54:14,063 submission_checker.py:3362 INFO] Open Results=3, Open Power Results=0
+
+[2023-07-31 08:54:14,063 submission_checker.py:3367 INFO] Network Results=0, Network Power Results=0
+
+[2023-07-31 08:54:14,063 submission_checker.py:3372 INFO] ---
+[2023-07-31 08:54:14,063 submission_checker.py:3374 INFO] Systems=1, Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3375 INFO] Closed Systems=0, Closed Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3380 INFO] Open Systems=1, Open Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3385 INFO] Network Systems=0, Network Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3390 INFO] ---
+[2023-07-31 08:54:14,063 submission_checker.py:3395 INFO] SUMMARY: submission looks OK

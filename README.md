@@ -1,2 +1,26 @@
-# mlperf_inference_submissions_v3.1
-Community submission to MLPerf inference v3.1
+Please download [summary.xlsx](summary.xlsx) to view the most recent results. [This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vSCu8F7Hwck-AGJ5kWxi2G3xhO5MJoc_igybvsxjCt-2fEEYyf2BIcR0rTXW0eUzg/pubhtml) shows the results which may not be the latest. 
+ ```
+[2023-07-31 08:54:14,062 submission_checker.py:3348 INFO] ---
+[2023-07-31 08:54:14,062 submission_checker.py:3349 INFO] Results=3, NoResults=0, Power Results=0
+[2023-07-31 08:54:14,062 submission_checker.py:3356 INFO] ---
+[2023-07-31 08:54:14,062 submission_checker.py:3357 INFO] Closed Results=0, Closed Power Results=0
+
+[2023-07-31 08:54:14,063 submission_checker.py:3362 INFO] Open Results=3, Open Power Results=0
+
+[2023-07-31 08:54:14,063 submission_checker.py:3367 INFO] Network Results=0, Network Power Results=0
+
+[2023-07-31 08:54:14,063 submission_checker.py:3372 INFO] ---
+[2023-07-31 08:54:14,063 submission_checker.py:3374 INFO] Systems=1, Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3375 INFO] Closed Systems=0, Closed Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3380 INFO] Open Systems=1, Open Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3385 INFO] Network Systems=0, Network Power Systems=0
+[2023-07-31 08:54:14,063 submission_checker.py:3390 INFO] ---
+[2023-07-31 08:54:14,063 submission_checker.py:3395 INFO] SUMMARY: submission looks OK
+
+```
+
+|    | Organization   | Availability   | Division   | SystemType   | SystemName    | Platform                                                    | Model    | MlperfModel   | Scenario     |     Result |   Accuracy |   number_of_nodes | host_processor_model_name              |   host_processors_per_node |   host_processor_core_count |   accelerator_model_name |   accelerators_per_node | Location                                                                                               | framework   | operating_system                                                 | notes                                                                               |   compliance |   errors | version   |   inferred | has_power   | Units        |
+|---:|:---------------|:---------------|:-----------|:-------------|:--------------|:------------------------------------------------------------|:---------|:--------------|:-------------|-----------:|-----------:|------------------:|:---------------------------------------|---------------------------:|----------------------------:|-------------------------:|------------------------:|:-------------------------------------------------------------------------------------------------------|:------------|:-----------------------------------------------------------------|:------------------------------------------------------------------------------------|-------------:|---------:|:----------|-----------:|:------------|:-------------|
+|  0 | cTuning        | available      | open       | edge         | Ryzen 3 4300U | Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config | resnet50 | resnet        | SingleStream |  185.753   |     76.456 |                 1 | AMD Ryzen 3 4300U with Radeon Graphics |                          1 |                           4 |                      nan |                       0 | open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/singlestream | tvm onnx    | Ubuntu 20.04 (linux-5.15.90.1-microsoft-standard-WSL2-glibc2.31) | Result taken by Ilya Kozulin. Powered by MLCommons Collective Mind framework (CK2). |            1 |        0 | v3.1      |          0 | False       | Latency (ms) |
+|  1 | cTuning        | available      | open       | edge         | Ryzen 3 4300U | Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config | resnet50 | resnet        | MultiStream  | 1462.7     |     76.456 |                 1 | AMD Ryzen 3 4300U with Radeon Graphics |                          1 |                           4 |                      nan |                       0 | open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/multistream  | tvm onnx    | Ubuntu 20.04 (linux-5.15.90.1-microsoft-standard-WSL2-glibc2.31) | Result taken by Ilya Kozulin. Powered by MLCommons Collective Mind framework (CK2). |            1 |        0 | v3.1      |          0 | False       | Latency (ms) |
+|  2 | cTuning        | available      | open       | edge         | Ryzen 3 4300U | Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config | resnet50 | resnet        | Offline      |    6.95999 |     76.456 |                 1 | AMD Ryzen 3 4300U with Radeon Graphics |                          1 |                           4 |                      nan |                       0 | open/cTuning/results/Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config/resnet50/offline      | tvm onnx    | Ubuntu 20.04 (linux-5.15.90.1-microsoft-standard-WSL2-glibc2.31) | Result taken by Ilya Kozulin. Powered by MLCommons Collective Mind framework (CK2). |            1 |        0 | v3.1      |          0 | False       | Samples/s    |
