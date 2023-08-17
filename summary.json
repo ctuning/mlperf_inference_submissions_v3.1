@@ -14504,296 +14504,6 @@
         "Availability":"available",
         "Division":"open",
         "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"resnet50",
-        "MlperfModel":"resnet",
-        "Scenario":"SingleStream",
-        "Result":0.514808,
-        "Accuracy":76.092,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/singlestream",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Latency (ms)"
-    },
-    "501":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"resnet50",
-        "MlperfModel":"resnet",
-        "Scenario":"MultiStream",
-        "Result":0.914575,
-        "Accuracy":76.158,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/multistream",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Latency (ms)"
-    },
-    "502":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"resnet50",
-        "MlperfModel":"resnet",
-        "Scenario":"Offline",
-        "Result":173501.0,
-        "Accuracy":76.0,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/offline",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Samples\/s"
-    },
-    "503":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"bert-99",
-        "MlperfModel":"bert-99",
-        "Scenario":"SingleStream",
-        "Result":1.794382,
-        "Accuracy":90.302934655,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/bert-99\/singlestream",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Latency (ms)"
-    },
-    "504":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"bert-99",
-        "MlperfModel":"bert-99",
-        "Scenario":"Offline",
-        "Result":14649.7,
-        "Accuracy":90.3332253036,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/bert-99\/offline",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Samples\/s"
-    },
-    "505":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"rnnt",
-        "MlperfModel":"rnnt",
-        "Scenario":"SingleStream",
-        "Result":33.828062,
-        "Accuracy":92.5342172315,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/rnnt\/singlestream",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Latency (ms)"
-    },
-    "506":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"rnnt",
-        "MlperfModel":"rnnt",
-        "Scenario":"Offline",
-        "Result":57273.6,
-        "Accuracy":92.5522559697,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/rnnt\/offline",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Samples\/s"
-    },
-    "507":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"retinanet",
-        "MlperfModel":"retinanet",
-        "Scenario":"SingleStream",
-        "Result":3.207242,
-        "Accuracy":37.411,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/retinanet\/singlestream",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Latency (ms)"
-    },
-    "508":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"retinanet",
-        "MlperfModel":"retinanet",
-        "Scenario":"MultiStream",
-        "Result":4.584035,
-        "Accuracy":37.411,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/retinanet\/multistream",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Latency (ms)"
-    },
-    "509":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
-        "SystemName":"rigel",
-        "Platform":"rigel-nvidia_original-gpu-tensorrt-vdefault-default_config",
-        "Model":"retinanet",
-        "MlperfModel":"retinanet",
-        "Scenario":"Offline",
-        "Result":2862.03,
-        "Accuracy":37.408,
-        "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
-        "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
-        "Location":"open\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/retinanet\/offline",
-        "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
-        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
-        "compliance":1,
-        "errors":0,
-        "version":"v3.1",
-        "inferred":0,
-        "has_power":false,
-        "Units":"Samples\/s"
-    },
-    "510":{
-        "Organization":"CTuning",
-        "Availability":"available",
-        "Division":"open",
-        "SystemType":"edge",
         "SystemName":"Ryzen 3 4300U",
         "Platform":"Ryzen_3_4300U-reference-cpu-tvm-onnx-v1.15.1-default_config",
         "Model":"resnet50",
@@ -14818,7 +14528,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "511":{
+    "501":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -14847,7 +14557,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "512":{
+    "502":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -14876,7 +14586,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "513":{
+    "503":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -14905,7 +14615,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "514":{
+    "504":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -14934,7 +14644,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "515":{
+    "505":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -14963,7 +14673,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "516":{
+    "506":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -14992,7 +14702,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "517":{
+    "507":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15021,7 +14731,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "518":{
+    "508":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15050,7 +14760,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "519":{
+    "509":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15079,7 +14789,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "520":{
+    "510":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15108,7 +14818,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "521":{
+    "511":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15137,7 +14847,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "522":{
+    "512":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15166,7 +14876,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "523":{
+    "513":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15195,7 +14905,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "524":{
+    "514":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15224,7 +14934,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "525":{
+    "515":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15253,7 +14963,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "526":{
+    "516":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15282,7 +14992,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "527":{
+    "517":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15311,7 +15021,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "528":{
+    "518":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15340,7 +15050,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "529":{
+    "519":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15369,7 +15079,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "530":{
+    "520":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15398,7 +15108,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "531":{
+    "521":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15427,7 +15137,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "532":{
+    "522":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15456,7 +15166,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "533":{
+    "523":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15485,7 +15195,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "534":{
+    "524":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15514,7 +15224,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "535":{
+    "525":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15543,7 +15253,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "536":{
+    "526":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15572,7 +15282,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "537":{
+    "527":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15601,7 +15311,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "538":{
+    "528":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15630,7 +15340,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "539":{
+    "529":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15659,7 +15369,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "540":{
+    "530":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15688,7 +15398,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "541":{
+    "531":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15717,7 +15427,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "542":{
+    "532":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15746,7 +15456,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "543":{
+    "533":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15775,7 +15485,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "544":{
+    "534":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15804,7 +15514,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "545":{
+    "535":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15833,7 +15543,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "546":{
+    "536":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15862,7 +15572,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "547":{
+    "537":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15891,7 +15601,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "548":{
+    "538":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15920,7 +15630,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "549":{
+    "539":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15949,7 +15659,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "550":{
+    "540":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -15978,7 +15688,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "551":{
+    "541":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16007,7 +15717,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "552":{
+    "542":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16036,7 +15746,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "553":{
+    "543":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16065,7 +15775,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "554":{
+    "544":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16094,7 +15804,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "555":{
+    "545":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16123,7 +15833,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "556":{
+    "546":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16152,7 +15862,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "557":{
+    "547":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16181,7 +15891,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "558":{
+    "548":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16210,7 +15920,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "559":{
+    "549":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16239,7 +15949,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "560":{
+    "550":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16268,7 +15978,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "561":{
+    "551":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16297,7 +16007,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "562":{
+    "552":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16326,7 +16036,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "563":{
+    "553":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16355,7 +16065,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "564":{
+    "554":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16384,7 +16094,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "565":{
+    "555":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16413,7 +16123,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "566":{
+    "556":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16442,7 +16152,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "567":{
+    "557":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16471,7 +16181,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "568":{
+    "558":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16500,7 +16210,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "569":{
+    "559":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16529,7 +16239,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "570":{
+    "560":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16558,7 +16268,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "571":{
+    "561":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16587,7 +16297,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "572":{
+    "562":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16616,7 +16326,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "573":{
+    "563":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16645,7 +16355,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "574":{
+    "564":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16674,7 +16384,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "575":{
+    "565":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16703,7 +16413,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "576":{
+    "566":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16732,7 +16442,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "577":{
+    "567":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16761,7 +16471,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "578":{
+    "568":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16790,7 +16500,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "579":{
+    "569":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16819,7 +16529,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "580":{
+    "570":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16848,7 +16558,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "581":{
+    "571":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16877,7 +16587,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "582":{
+    "572":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16906,7 +16616,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "583":{
+    "573":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16935,7 +16645,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "584":{
+    "574":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16964,7 +16674,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "585":{
+    "575":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -16993,7 +16703,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "586":{
+    "576":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17022,7 +16732,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "587":{
+    "577":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17051,7 +16761,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "588":{
+    "578":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17080,7 +16790,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "589":{
+    "579":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17109,7 +16819,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "590":{
+    "580":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17138,7 +16848,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "591":{
+    "581":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17167,7 +16877,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "592":{
+    "582":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17196,7 +16906,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "593":{
+    "583":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17225,7 +16935,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "594":{
+    "584":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17254,7 +16964,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "595":{
+    "585":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17283,7 +16993,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "596":{
+    "586":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17312,7 +17022,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "597":{
+    "587":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17341,7 +17051,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "598":{
+    "588":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17370,7 +17080,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "599":{
+    "589":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17399,7 +17109,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "600":{
+    "590":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17428,7 +17138,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "601":{
+    "591":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17457,7 +17167,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "602":{
+    "592":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17486,7 +17196,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "603":{
+    "593":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17515,7 +17225,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "604":{
+    "594":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17544,7 +17254,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "605":{
+    "595":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17573,7 +17283,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "606":{
+    "596":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17602,7 +17312,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "607":{
+    "597":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17631,7 +17341,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "608":{
+    "598":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17660,7 +17370,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "609":{
+    "599":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17689,7 +17399,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "610":{
+    "600":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17718,7 +17428,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "611":{
+    "601":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17747,7 +17457,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "612":{
+    "602":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17776,7 +17486,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "613":{
+    "603":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17805,7 +17515,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "614":{
+    "604":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17834,7 +17544,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "615":{
+    "605":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17863,7 +17573,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "616":{
+    "606":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17892,7 +17602,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "617":{
+    "607":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17921,7 +17631,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "618":{
+    "608":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17950,7 +17660,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "619":{
+    "609":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -17979,7 +17689,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "620":{
+    "610":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18008,7 +17718,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "621":{
+    "611":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18037,7 +17747,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "622":{
+    "612":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18066,7 +17776,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "623":{
+    "613":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18095,7 +17805,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "624":{
+    "614":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18124,7 +17834,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "625":{
+    "615":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18153,7 +17863,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "626":{
+    "616":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18182,7 +17892,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "627":{
+    "617":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18211,7 +17921,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "628":{
+    "618":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18240,7 +17950,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "629":{
+    "619":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18269,7 +17979,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "630":{
+    "620":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18298,7 +18008,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "631":{
+    "621":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18327,7 +18037,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "632":{
+    "622":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18356,7 +18066,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "633":{
+    "623":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18385,7 +18095,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "634":{
+    "624":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18414,7 +18124,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "635":{
+    "625":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18443,7 +18153,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "636":{
+    "626":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18472,7 +18182,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "637":{
+    "627":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18501,7 +18211,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "638":{
+    "628":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18530,7 +18240,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "639":{
+    "629":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18559,7 +18269,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "640":{
+    "630":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18588,7 +18298,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "641":{
+    "631":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18617,7 +18327,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "642":{
+    "632":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18646,7 +18356,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "643":{
+    "633":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18675,7 +18385,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "644":{
+    "634":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18704,7 +18414,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "645":{
+    "635":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18733,7 +18443,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "646":{
+    "636":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18762,7 +18472,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "647":{
+    "637":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18791,7 +18501,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "648":{
+    "638":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18820,7 +18530,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "649":{
+    "639":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18849,7 +18559,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "650":{
+    "640":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18878,7 +18588,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "651":{
+    "641":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18907,7 +18617,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "652":{
+    "642":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18936,7 +18646,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "653":{
+    "643":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18965,7 +18675,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "654":{
+    "644":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -18994,7 +18704,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "655":{
+    "645":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19023,7 +18733,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "656":{
+    "646":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19052,7 +18762,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "657":{
+    "647":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19081,7 +18791,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "658":{
+    "648":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19110,7 +18820,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "659":{
+    "649":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19139,7 +18849,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "660":{
+    "650":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19168,7 +18878,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "661":{
+    "651":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19197,7 +18907,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "662":{
+    "652":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19226,7 +18936,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "663":{
+    "653":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19255,7 +18965,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "664":{
+    "654":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19284,7 +18994,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "665":{
+    "655":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19313,7 +19023,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "666":{
+    "656":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19342,7 +19052,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "667":{
+    "657":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19371,7 +19081,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "668":{
+    "658":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19400,7 +19110,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "669":{
+    "659":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19429,7 +19139,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "670":{
+    "660":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19458,7 +19168,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "671":{
+    "661":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19487,7 +19197,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "672":{
+    "662":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19516,7 +19226,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "673":{
+    "663":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19545,7 +19255,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "674":{
+    "664":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19574,7 +19284,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "675":{
+    "665":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19603,7 +19313,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "676":{
+    "666":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19632,7 +19342,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "677":{
+    "667":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19661,7 +19371,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "678":{
+    "668":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19690,7 +19400,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "679":{
+    "669":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19719,7 +19429,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "680":{
+    "670":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19748,7 +19458,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "681":{
+    "671":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19777,7 +19487,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "682":{
+    "672":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19806,7 +19516,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "683":{
+    "673":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19835,7 +19545,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "684":{
+    "674":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19864,7 +19574,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "685":{
+    "675":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19893,7 +19603,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "686":{
+    "676":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19922,7 +19632,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "687":{
+    "677":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19951,7 +19661,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "688":{
+    "678":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -19980,7 +19690,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "689":{
+    "679":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20009,7 +19719,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "690":{
+    "680":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20038,7 +19748,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "691":{
+    "681":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20067,7 +19777,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "692":{
+    "682":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20096,7 +19806,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "693":{
+    "683":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20125,7 +19835,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "694":{
+    "684":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20154,7 +19864,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "695":{
+    "685":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20183,7 +19893,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "696":{
+    "686":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20212,7 +19922,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "697":{
+    "687":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20241,7 +19951,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "698":{
+    "688":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20270,7 +19980,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "699":{
+    "689":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20299,7 +20009,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "700":{
+    "690":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20328,7 +20038,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "701":{
+    "691":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20357,7 +20067,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "702":{
+    "692":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20386,7 +20096,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "703":{
+    "693":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20415,7 +20125,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "704":{
+    "694":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20444,7 +20154,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "705":{
+    "695":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20473,7 +20183,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "706":{
+    "696":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20502,7 +20212,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "707":{
+    "697":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20531,7 +20241,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "708":{
+    "698":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20560,7 +20270,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "709":{
+    "699":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20589,7 +20299,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "710":{
+    "700":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20618,7 +20328,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "711":{
+    "701":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20647,7 +20357,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "712":{
+    "702":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20676,7 +20386,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "713":{
+    "703":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20705,7 +20415,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "714":{
+    "704":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20734,7 +20444,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "715":{
+    "705":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20763,7 +20473,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "716":{
+    "706":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20792,7 +20502,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "717":{
+    "707":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20821,7 +20531,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "718":{
+    "708":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20850,7 +20560,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "719":{
+    "709":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20879,7 +20589,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "720":{
+    "710":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20908,7 +20618,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "721":{
+    "711":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20937,7 +20647,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "722":{
+    "712":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20966,7 +20676,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "723":{
+    "713":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -20995,7 +20705,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "724":{
+    "714":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21024,7 +20734,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "725":{
+    "715":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21053,7 +20763,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "726":{
+    "716":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21082,7 +20792,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "727":{
+    "717":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21111,7 +20821,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "728":{
+    "718":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21140,7 +20850,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "729":{
+    "719":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21169,7 +20879,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "730":{
+    "720":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21198,7 +20908,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "731":{
+    "721":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21227,7 +20937,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "732":{
+    "722":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21256,7 +20966,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "733":{
+    "723":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21285,7 +20995,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "734":{
+    "724":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21314,7 +21024,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "735":{
+    "725":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21343,7 +21053,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "736":{
+    "726":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21372,7 +21082,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "737":{
+    "727":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21401,7 +21111,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "738":{
+    "728":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21430,7 +21140,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "739":{
+    "729":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21459,7 +21169,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "740":{
+    "730":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21488,7 +21198,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "741":{
+    "731":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21517,7 +21227,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "742":{
+    "732":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21546,7 +21256,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "743":{
+    "733":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21575,7 +21285,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "744":{
+    "734":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21604,7 +21314,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "745":{
+    "735":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21633,7 +21343,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "746":{
+    "736":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21662,7 +21372,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "747":{
+    "737":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21691,7 +21401,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "748":{
+    "738":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21720,7 +21430,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "749":{
+    "739":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21749,7 +21459,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "750":{
+    "740":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21778,7 +21488,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "751":{
+    "741":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21807,7 +21517,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "752":{
+    "742":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21836,7 +21546,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "753":{
+    "743":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21865,7 +21575,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "754":{
+    "744":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21894,7 +21604,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "755":{
+    "745":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21923,7 +21633,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "756":{
+    "746":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21952,7 +21662,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "757":{
+    "747":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -21981,7 +21691,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "758":{
+    "748":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22010,7 +21720,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "759":{
+    "749":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22039,7 +21749,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "760":{
+    "750":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22068,7 +21778,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "761":{
+    "751":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22097,7 +21807,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "762":{
+    "752":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22126,7 +21836,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "763":{
+    "753":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22155,7 +21865,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "764":{
+    "754":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22184,7 +21894,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "765":{
+    "755":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22213,7 +21923,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "766":{
+    "756":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22242,7 +21952,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "767":{
+    "757":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22271,7 +21981,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "768":{
+    "758":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22300,7 +22010,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "769":{
+    "759":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22329,7 +22039,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "770":{
+    "760":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22358,7 +22068,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "771":{
+    "761":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22387,7 +22097,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "772":{
+    "762":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22416,7 +22126,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "773":{
+    "763":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22445,7 +22155,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "774":{
+    "764":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22474,7 +22184,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "775":{
+    "765":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22503,7 +22213,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "776":{
+    "766":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22532,7 +22242,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "777":{
+    "767":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22561,7 +22271,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "778":{
+    "768":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22590,7 +22300,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "779":{
+    "769":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22619,7 +22329,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "780":{
+    "770":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22648,7 +22358,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "781":{
+    "771":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22677,7 +22387,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "782":{
+    "772":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22706,7 +22416,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "783":{
+    "773":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22735,7 +22445,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "784":{
+    "774":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22764,7 +22474,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "785":{
+    "775":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22793,7 +22503,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "786":{
+    "776":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22822,7 +22532,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "787":{
+    "777":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22851,7 +22561,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "788":{
+    "778":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22880,7 +22590,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "789":{
+    "779":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22909,7 +22619,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "790":{
+    "780":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22938,7 +22648,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "791":{
+    "781":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22967,7 +22677,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "792":{
+    "782":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -22996,7 +22706,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "793":{
+    "783":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23025,7 +22735,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "794":{
+    "784":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23054,7 +22764,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "795":{
+    "785":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23083,7 +22793,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "796":{
+    "786":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23112,7 +22822,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "797":{
+    "787":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23141,7 +22851,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "798":{
+    "788":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23170,7 +22880,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "799":{
+    "789":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23199,7 +22909,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "800":{
+    "790":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23228,7 +22938,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "801":{
+    "791":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23257,7 +22967,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "802":{
+    "792":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23286,7 +22996,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "803":{
+    "793":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23315,7 +23025,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "804":{
+    "794":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23344,7 +23054,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "805":{
+    "795":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23373,7 +23083,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "806":{
+    "796":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23402,7 +23112,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "807":{
+    "797":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23431,7 +23141,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "808":{
+    "798":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23460,7 +23170,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "809":{
+    "799":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23489,7 +23199,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "810":{
+    "800":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23518,7 +23228,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "811":{
+    "801":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23547,7 +23257,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "812":{
+    "802":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23576,7 +23286,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "813":{
+    "803":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23605,7 +23315,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "814":{
+    "804":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23634,7 +23344,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "815":{
+    "805":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23663,7 +23373,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "816":{
+    "806":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23692,7 +23402,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "817":{
+    "807":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23721,7 +23431,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "818":{
+    "808":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23750,7 +23460,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "819":{
+    "809":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23779,7 +23489,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "820":{
+    "810":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23808,7 +23518,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "821":{
+    "811":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23837,7 +23547,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "822":{
+    "812":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23866,7 +23576,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "823":{
+    "813":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23895,7 +23605,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "824":{
+    "814":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23924,7 +23634,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "825":{
+    "815":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23953,7 +23663,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "826":{
+    "816":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -23982,7 +23692,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "827":{
+    "817":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24011,7 +23721,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "828":{
+    "818":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24040,7 +23750,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "829":{
+    "819":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24069,7 +23779,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "830":{
+    "820":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24098,7 +23808,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "831":{
+    "821":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24127,7 +23837,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "832":{
+    "822":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24156,7 +23866,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "833":{
+    "823":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24185,7 +23895,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "834":{
+    "824":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24214,7 +23924,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "835":{
+    "825":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24243,7 +23953,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "836":{
+    "826":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24272,7 +23982,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "837":{
+    "827":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24301,7 +24011,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "838":{
+    "828":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24330,7 +24040,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "839":{
+    "829":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24359,7 +24069,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "840":{
+    "830":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24388,7 +24098,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "841":{
+    "831":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24417,7 +24127,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "842":{
+    "832":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24446,7 +24156,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "843":{
+    "833":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24475,7 +24185,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "844":{
+    "834":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24504,7 +24214,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "845":{
+    "835":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24533,7 +24243,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "846":{
+    "836":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24562,7 +24272,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "847":{
+    "837":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24591,7 +24301,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "848":{
+    "838":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24620,7 +24330,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "849":{
+    "839":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24649,7 +24359,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "850":{
+    "840":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24678,7 +24388,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "851":{
+    "841":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24707,7 +24417,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "852":{
+    "842":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24736,7 +24446,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "853":{
+    "843":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24765,7 +24475,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "854":{
+    "844":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24794,7 +24504,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "855":{
+    "845":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24823,7 +24533,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "856":{
+    "846":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24852,7 +24562,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "857":{
+    "847":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24881,7 +24591,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "858":{
+    "848":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24910,7 +24620,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "859":{
+    "849":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24939,7 +24649,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "860":{
+    "850":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24968,7 +24678,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "861":{
+    "851":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -24997,7 +24707,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "862":{
+    "852":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25026,7 +24736,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "863":{
+    "853":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25055,7 +24765,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "864":{
+    "854":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25084,7 +24794,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "865":{
+    "855":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25113,7 +24823,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "866":{
+    "856":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25142,7 +24852,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "867":{
+    "857":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25171,7 +24881,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "868":{
+    "858":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25200,7 +24910,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "869":{
+    "859":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25229,7 +24939,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "870":{
+    "860":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25258,7 +24968,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "871":{
+    "861":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25287,7 +24997,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "872":{
+    "862":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25316,7 +25026,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "873":{
+    "863":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25345,7 +25055,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "874":{
+    "864":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25374,7 +25084,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "875":{
+    "865":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25403,7 +25113,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "876":{
+    "866":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25432,7 +25142,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "877":{
+    "867":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25461,7 +25171,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "878":{
+    "868":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25490,7 +25200,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "879":{
+    "869":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25519,7 +25229,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "880":{
+    "870":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25548,7 +25258,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "881":{
+    "871":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25577,7 +25287,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "882":{
+    "872":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25606,7 +25316,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "883":{
+    "873":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25635,7 +25345,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "884":{
+    "874":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25664,7 +25374,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "885":{
+    "875":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25693,7 +25403,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "886":{
+    "876":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25722,7 +25432,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "887":{
+    "877":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25751,7 +25461,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "888":{
+    "878":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25780,7 +25490,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "889":{
+    "879":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25809,7 +25519,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "890":{
+    "880":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25838,7 +25548,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "891":{
+    "881":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25867,7 +25577,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "892":{
+    "882":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25896,7 +25606,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "893":{
+    "883":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25925,7 +25635,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "894":{
+    "884":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25954,7 +25664,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "895":{
+    "885":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -25983,7 +25693,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "896":{
+    "886":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26012,7 +25722,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "897":{
+    "887":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26041,7 +25751,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "898":{
+    "888":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26070,7 +25780,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "899":{
+    "889":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26099,7 +25809,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "900":{
+    "890":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26128,7 +25838,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "901":{
+    "891":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26157,7 +25867,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "902":{
+    "892":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26186,7 +25896,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "903":{
+    "893":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26215,7 +25925,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "904":{
+    "894":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26244,7 +25954,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "905":{
+    "895":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26273,7 +25983,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "906":{
+    "896":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26302,7 +26012,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "907":{
+    "897":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26331,7 +26041,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "908":{
+    "898":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26360,7 +26070,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "909":{
+    "899":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26389,7 +26099,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "910":{
+    "900":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26418,7 +26128,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "911":{
+    "901":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26447,7 +26157,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "912":{
+    "902":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26476,7 +26186,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "913":{
+    "903":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26505,7 +26215,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "914":{
+    "904":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26534,7 +26244,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "915":{
+    "905":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26563,7 +26273,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "916":{
+    "906":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26592,7 +26302,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "917":{
+    "907":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26621,7 +26331,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "918":{
+    "908":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26650,7 +26360,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "919":{
+    "909":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26679,7 +26389,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "920":{
+    "910":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26708,7 +26418,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "921":{
+    "911":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26737,7 +26447,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "922":{
+    "912":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26766,7 +26476,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "923":{
+    "913":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26795,7 +26505,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "924":{
+    "914":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26824,7 +26534,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "925":{
+    "915":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26853,7 +26563,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "926":{
+    "916":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26882,7 +26592,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "927":{
+    "917":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26911,7 +26621,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "928":{
+    "918":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26940,7 +26650,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "929":{
+    "919":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26969,7 +26679,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "930":{
+    "920":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -26998,7 +26708,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "931":{
+    "921":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27027,7 +26737,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "932":{
+    "922":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27056,7 +26766,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "933":{
+    "923":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27085,7 +26795,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "934":{
+    "924":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27114,7 +26824,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "935":{
+    "925":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27143,7 +26853,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "936":{
+    "926":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27172,7 +26882,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "937":{
+    "927":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27201,7 +26911,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "938":{
+    "928":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27230,7 +26940,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "939":{
+    "929":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27259,7 +26969,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "940":{
+    "930":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27288,7 +26998,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "941":{
+    "931":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27317,7 +27027,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "942":{
+    "932":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27346,7 +27056,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "943":{
+    "933":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27375,7 +27085,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "944":{
+    "934":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27404,7 +27114,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "945":{
+    "935":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27433,7 +27143,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "946":{
+    "936":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27462,7 +27172,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "947":{
+    "937":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27491,7 +27201,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "948":{
+    "938":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27520,7 +27230,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "949":{
+    "939":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27549,7 +27259,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "950":{
+    "940":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27578,7 +27288,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "951":{
+    "941":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27607,7 +27317,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "952":{
+    "942":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27636,7 +27346,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "953":{
+    "943":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27665,7 +27375,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "954":{
+    "944":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27694,7 +27404,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "955":{
+    "945":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27723,7 +27433,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "956":{
+    "946":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27752,7 +27462,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "957":{
+    "947":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27781,7 +27491,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "958":{
+    "948":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27810,7 +27520,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "959":{
+    "949":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27839,7 +27549,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "960":{
+    "950":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27868,7 +27578,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "961":{
+    "951":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27897,7 +27607,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "962":{
+    "952":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27926,7 +27636,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "963":{
+    "953":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27955,7 +27665,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "964":{
+    "954":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -27984,7 +27694,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "965":{
+    "955":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28013,7 +27723,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "966":{
+    "956":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28042,7 +27752,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "967":{
+    "957":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28071,7 +27781,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "968":{
+    "958":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28100,7 +27810,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "969":{
+    "959":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28129,7 +27839,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "970":{
+    "960":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28158,7 +27868,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "971":{
+    "961":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28187,7 +27897,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "972":{
+    "962":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28216,7 +27926,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "973":{
+    "963":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28245,7 +27955,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "974":{
+    "964":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28274,7 +27984,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "975":{
+    "965":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28303,7 +28013,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "976":{
+    "966":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28332,7 +28042,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "977":{
+    "967":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28361,7 +28071,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "978":{
+    "968":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28390,7 +28100,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "979":{
+    "969":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28419,7 +28129,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "980":{
+    "970":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28448,7 +28158,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "981":{
+    "971":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28477,7 +28187,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "982":{
+    "972":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28506,7 +28216,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "983":{
+    "973":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28535,7 +28245,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "984":{
+    "974":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28564,7 +28274,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "985":{
+    "975":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28593,7 +28303,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "986":{
+    "976":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28622,7 +28332,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "987":{
+    "977":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28651,7 +28361,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "988":{
+    "978":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28680,7 +28390,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "989":{
+    "979":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28709,7 +28419,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "990":{
+    "980":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28738,7 +28448,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "991":{
+    "981":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28767,7 +28477,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "992":{
+    "982":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28796,7 +28506,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "993":{
+    "983":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28825,7 +28535,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "994":{
+    "984":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28854,7 +28564,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "995":{
+    "985":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28883,7 +28593,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "996":{
+    "986":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28912,7 +28622,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "997":{
+    "987":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28941,7 +28651,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "998":{
+    "988":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28970,7 +28680,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "999":{
+    "989":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -28999,7 +28709,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1000":{
+    "990":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29028,7 +28738,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1001":{
+    "991":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29057,7 +28767,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1002":{
+    "992":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29086,7 +28796,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1003":{
+    "993":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29115,7 +28825,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1004":{
+    "994":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29144,7 +28854,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1005":{
+    "995":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29173,7 +28883,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1006":{
+    "996":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29202,7 +28912,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1007":{
+    "997":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29231,7 +28941,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1008":{
+    "998":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29260,7 +28970,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1009":{
+    "999":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29289,7 +28999,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1010":{
+    "1000":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29318,7 +29028,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1011":{
+    "1001":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29347,7 +29057,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1012":{
+    "1002":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29376,7 +29086,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1013":{
+    "1003":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29405,7 +29115,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1014":{
+    "1004":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29434,7 +29144,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1015":{
+    "1005":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29463,7 +29173,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1016":{
+    "1006":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29492,7 +29202,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1017":{
+    "1007":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29521,7 +29231,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1018":{
+    "1008":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29550,7 +29260,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1019":{
+    "1009":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29579,7 +29289,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1020":{
+    "1010":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29608,7 +29318,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1021":{
+    "1011":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29637,7 +29347,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1022":{
+    "1012":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29666,7 +29376,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1023":{
+    "1013":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29695,7 +29405,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1024":{
+    "1014":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29724,7 +29434,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1025":{
+    "1015":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29753,7 +29463,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1026":{
+    "1016":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29782,7 +29492,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1027":{
+    "1017":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29811,7 +29521,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1028":{
+    "1018":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29840,7 +29550,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1029":{
+    "1019":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29869,7 +29579,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1030":{
+    "1020":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29898,7 +29608,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1031":{
+    "1021":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29927,7 +29637,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1032":{
+    "1022":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29956,7 +29666,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1033":{
+    "1023":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -29985,7 +29695,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1034":{
+    "1024":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30014,7 +29724,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1035":{
+    "1025":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30043,7 +29753,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1036":{
+    "1026":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30072,7 +29782,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1037":{
+    "1027":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30101,7 +29811,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1038":{
+    "1028":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30130,7 +29840,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1039":{
+    "1029":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30159,7 +29869,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1040":{
+    "1030":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30188,7 +29898,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1041":{
+    "1031":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30217,7 +29927,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1042":{
+    "1032":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30246,7 +29956,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1043":{
+    "1033":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30275,7 +29985,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1044":{
+    "1034":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30304,7 +30014,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1045":{
+    "1035":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30333,7 +30043,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1046":{
+    "1036":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30362,7 +30072,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1047":{
+    "1037":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30391,7 +30101,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1048":{
+    "1038":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30420,7 +30130,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1049":{
+    "1039":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30449,7 +30159,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1050":{
+    "1040":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30478,7 +30188,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1051":{
+    "1041":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30507,7 +30217,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1052":{
+    "1042":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30536,7 +30246,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1053":{
+    "1043":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30565,7 +30275,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1054":{
+    "1044":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30594,7 +30304,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1055":{
+    "1045":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30623,7 +30333,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1056":{
+    "1046":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30652,7 +30362,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1057":{
+    "1047":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30681,7 +30391,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1058":{
+    "1048":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30710,7 +30420,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1059":{
+    "1049":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30739,7 +30449,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1060":{
+    "1050":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30768,7 +30478,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1061":{
+    "1051":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30797,7 +30507,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1062":{
+    "1052":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30826,7 +30536,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1063":{
+    "1053":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30855,7 +30565,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1064":{
+    "1054":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30884,7 +30594,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1065":{
+    "1055":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30913,7 +30623,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1066":{
+    "1056":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30942,7 +30652,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1067":{
+    "1057":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -30971,7 +30681,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1068":{
+    "1058":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31000,7 +30710,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1069":{
+    "1059":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31029,7 +30739,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1070":{
+    "1060":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31058,7 +30768,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1071":{
+    "1061":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31087,7 +30797,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1072":{
+    "1062":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31116,7 +30826,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1073":{
+    "1063":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31145,7 +30855,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1074":{
+    "1064":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31174,7 +30884,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1075":{
+    "1065":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31203,7 +30913,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1076":{
+    "1066":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31232,7 +30942,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1077":{
+    "1067":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31261,7 +30971,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1078":{
+    "1068":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31290,7 +31000,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1079":{
+    "1069":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"open",
@@ -31319,7 +31029,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1080":{
+    "1070":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31332,14 +31042,14 @@
         "Result":0.514808,
         "Accuracy":76.092,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/singlestream",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31348,7 +31058,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1081":{
+    "1071":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31361,14 +31071,14 @@
         "Result":0.914575,
         "Accuracy":76.158,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/multistream",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31377,7 +31087,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1082":{
+    "1072":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31390,14 +31100,14 @@
         "Result":173501.0,
         "Accuracy":76.0,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/offline",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31406,7 +31116,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1083":{
+    "1073":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31419,14 +31129,14 @@
         "Result":1.794382,
         "Accuracy":90.302934655,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/bert-99\/singlestream",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31435,7 +31145,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1084":{
+    "1074":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31448,14 +31158,14 @@
         "Result":14649.7,
         "Accuracy":90.3332253036,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/bert-99\/offline",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31464,7 +31174,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1085":{
+    "1075":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31477,14 +31187,14 @@
         "Result":33.828062,
         "Accuracy":92.5342172315,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/rnnt\/singlestream",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31493,7 +31203,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1086":{
+    "1076":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31506,14 +31216,14 @@
         "Result":57273.6,
         "Accuracy":92.5522559697,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/rnnt\/offline",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31522,7 +31232,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1087":{
+    "1077":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31535,14 +31245,14 @@
         "Result":3.207242,
         "Accuracy":37.411,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/retinanet\/singlestream",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31551,7 +31261,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1088":{
+    "1078":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31564,14 +31274,14 @@
         "Result":4.584035,
         "Accuracy":37.411,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/retinanet\/multistream",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31580,7 +31290,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1089":{
+    "1079":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31593,14 +31303,14 @@
         "Result":2862.03,
         "Accuracy":37.408,
         "number_of_nodes":1,
-        "host_processor_model_name":"undefined",
+        "host_processor_model_name":"AMD EPYC 7502 32-Core Processor",
         "host_processors_per_node":1,
-        "host_processor_core_count":10,
-        "accelerator_model_name":null,
-        "accelerators_per_node":0,
+        "host_processor_core_count":32,
+        "accelerator_model_name":"NVIDIA HGX A100 SXM",
+        "accelerators_per_node":4,
         "Location":"closed\/CTuning\/results\/rigel-nvidia_original-gpu-tensorrt-vdefault-default_config\/retinanet\/offline",
         "framework":"tensorrt vdefault",
-        "operating_system":" (darwin-22.5.0)",
+        "operating_system":"Ubuntu 22.04 (linux-5.15.0-78-generic-glibc2.35)",
         "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
         "compliance":1,
         "errors":0,
@@ -31609,7 +31319,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1090":{
+    "1080":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31638,7 +31348,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1091":{
+    "1081":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31667,7 +31377,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1092":{
+    "1082":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31696,7 +31406,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1093":{
+    "1083":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31725,7 +31435,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1094":{
+    "1084":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31754,7 +31464,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1095":{
+    "1085":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31783,7 +31493,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1096":{
+    "1086":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31812,7 +31522,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1097":{
+    "1087":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31841,7 +31551,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1098":{
+    "1088":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31870,7 +31580,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1099":{
+    "1089":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31899,7 +31609,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1100":{
+    "1090":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31928,7 +31638,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1101":{
+    "1091":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
