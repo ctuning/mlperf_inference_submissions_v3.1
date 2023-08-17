@@ -12,7 +12,7 @@
   "division": "closed",
   "framework": "ncnn vdefault",
   "host_memory_capacity": "112G",
-  "host_memory_configuration": "12 x 32GB 2Rx4 PC4-2666V-R",
+  "host_memory_configuration": "unavailable",
   "host_networking": "Gig Ethernet",
   "host_networking_card_count": "1",
   "host_networking_topology": "N/A",
@@ -31,7 +31,7 @@
   "status": "available",
   "submitter": "cTuning",
   "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
-  "system_name": "Collabora",
+  "system_name": "Collabora AMD ThreadRipper",
   "system_type": "edge",
   "system_type_detail": "edge server"
 }
