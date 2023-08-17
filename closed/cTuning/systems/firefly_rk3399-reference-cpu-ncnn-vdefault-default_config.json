@@ -12,11 +12,11 @@
   "division": "closed",
   "framework": "ncnn vdefault",
   "host_memory_capacity": "3.9G",
-  "host_memory_configuration": "12 x 32GB 2Rx4 PC4-2666V-R",
+  "host_memory_configuration": "unavailable",
   "host_networking": "Gig Ethernet",
   "host_networking_card_count": "1",
   "host_networking_topology": "N/A",
-  "host_processor_caches": "L1d cache:  , L1i cache:  , L2 cache:  , L3 cache:  ",
+  "host_processor_caches": "L1d cache: 32KB, L1i cache: 32KB, L2 cache: 512KB, L3 cache:  ",
   "host_processor_core_count": "6",
   "host_processor_frequency": "1800.0000",
   "host_processor_interconnect": "",
@@ -31,7 +31,7 @@
   "status": "available",
   "submitter": "cTuning",
   "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
-  "system_name": "firefly_rk3399 (auto detected)",
+  "system_name": "Collabora firefly_rk3399",
   "system_type": "edge",
   "system_type_detail": "edge server"
 }
