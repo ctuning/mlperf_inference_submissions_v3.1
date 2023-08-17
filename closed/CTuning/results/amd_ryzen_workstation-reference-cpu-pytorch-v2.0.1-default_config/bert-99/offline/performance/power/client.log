@@ -1,0 +1,55 @@
+client 2023-07-30 11:51:25,564 [INFO] Creating output directory '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/tmp_power'
+client 2023-07-30 11:51:25,567 [INFO] Sending command to the server: 'mlcommons/power client v3'
+client 2023-07-30 11:51:25,569 [INFO] Got response: 'mlcommons/power server v3'
+client 2023-07-30 11:51:25,569 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-30 11:51:25,593 [INFO] NTP:offset = 0.001 s, delay = 0.012 s 
+client 2023-07-30 11:51:25,594 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:51:25,595 [INFO] Got response: '1690714285.5280735'
+client 2023-07-30 11:51:25,595 [INFO] The time difference between the client and the server is within range 65.934 ms..67.655 ms
+client 2023-07-30 11:51:25,595 [INFO] Sending command to the server: 'new,,84b55d51-c3f2-4cd6-bad1-68e49c94a260'
+client 2023-07-30 11:51:25,598 [INFO] Got response: 'OK 2023-07-30_11-51-25,6471e1d7-e6d8-47a0-95ae-de175559e024'
+client 2023-07-30 11:51:25,598 [INFO] Session id is '2023-07-30_11-51-25'
+client 2023-07-30 11:51:25,599 [INFO] Sources: {"sources": {"__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "client.py": "33ca4f26368777ac06e01f9567b714a4b8063886", "lib/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/client.py": "ac2aa093c8e8bbc9569b9e2a3471bc64e58a2258", "lib/common.py": "611d8b29633d331eb19c9455ea3b5fa3284ed6df", "lib/external/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "lib/external/ntplib.py": "4da8f970656505a40483206ef2b5d3dd5e81711d", "lib/server.py": "c7af63c31bb2fbedea4345f571f6e3507d268ada", "lib/source_hashes.py": "60a2e02193209e8d392803326208d5466342da18", "lib/summary.py": "aa92f0a3f975eecd44d3c0cd0236342ccc9f941d", "lib/time_sync.py": "122eba67a9abc85635223e054def53be1367ade2", "server.py": "c3f90f2f7eeb4db30727556d0c815ebc89b3d28b", "tests/unit/__init__.py": "da39a3ee5e6b4b0d3255bfef95601890afd80709", "tests/unit/test_server.py": "948c1995d4008bc2aa6c4046a34ffa3858d6d671", "tests/unit/test_source_hashes.py": "00468a2907583c593e6574a1f6b404e4651c221a"}, "modules": {"ptd_client_server.lib.client": "lib/client.py", "ptd_client_server.lib.common": "lib/common.py", "ptd_client_server.lib.external.ntplib": "lib/external/ntplib.py", "ptd_client_server.lib.source_hashes": "lib/source_hashes.py", "ptd_client_server.lib.summary": "lib/summary.py", "ptd_client_server.lib.time_sync": "lib/time_sync.py"}}
+client 2023-07-30 11:51:25,599 [INFO] Running workload in ranging mode
+client 2023-07-30 11:51:25,599 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-30 11:51:25,612 [INFO] NTP:offset = -0.000 s, delay = 0.013 s 
+client 2023-07-30 11:51:25,612 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:51:25,615 [INFO] Got response: '1690714285.5480843'
+client 2023-07-30 11:51:25,615 [INFO] The time difference between the client and the server is within range 64.750 ms..67.396 ms
+client 2023-07-30 11:51:25,615 [INFO] Sending command to the server: 'session,2023-07-30_11-51-25,start,ranging'
+client 2023-07-30 11:51:49,490 [INFO] Got response: 'OK'
+client 2023-07-30 11:51:49,490 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:51:49,494 [INFO] Got response: '1690714309.4312832'
+client 2023-07-30 11:51:49,494 [INFO] The time difference between the client and the server is within range 59.314 ms..63.657 ms
+client 2023-07-30 11:51:49,494 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && cd "/home/arjun/CM/repos/local/cache/4d313212e3dd40ad/inference/language/bert" && /usr/bin/python3 run.py --backend=pytorch --scenario=SingleStream --mlperf_conf "/home/arjun/CM/repos/local/cache/4d313212e3dd40ad/inference/mlperf.conf" --user_conf "${CM_MLPERF_USER_CONF}"'
+client 2023-07-30 11:56:53,636 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:56:53,639 [INFO] Got response: '1690714613.57445'
+client 2023-07-30 11:56:53,639 [INFO] The time difference between the client and the server is within range 61.999 ms..65.011 ms
+client 2023-07-30 11:56:53,639 [INFO] Sending command to the server: 'session,2023-07-30_11-51-25,stop,ranging'
+client 2023-07-30 11:57:04,723 [INFO] Got response: 'OK'
+client 2023-07-30 11:57:04,723 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:57:04,725 [INFO] Got response: '1690714624.6533797'
+client 2023-07-30 11:57:04,725 [INFO] The time difference between the client and the server is within range 69.797 ms..72.356 ms
+client 2023-07-30 11:57:04,728 [INFO] Copying loadgen logs from '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/run_1' to '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/tmp_power/ranging'
+client 2023-07-30 11:57:04,728 [INFO] Running workload in testing mode
+client 2023-07-30 11:57:04,729 [INFO] Synchronizing with the server and with time.google.com...
+client 2023-07-30 11:57:04,746 [INFO] NTP:offset = -0.000 s, delay = 0.017 s 
+client 2023-07-30 11:57:04,746 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:57:04,748 [INFO] Got response: '1690714624.6837823'
+client 2023-07-30 11:57:04,748 [INFO] The time difference between the client and the server is within range 62.653 ms..65.184 ms
+client 2023-07-30 11:57:04,749 [INFO] Sending command to the server: 'session,2023-07-30_11-51-25,start,testing'
+client 2023-07-30 11:57:17,801 [INFO] Got response: 'OK'
+client 2023-07-30 11:57:17,801 [INFO] Sending command to the server: 'time'
+client 2023-07-30 11:57:17,804 [INFO] Got response: '1690714637.7324457'
+client 2023-07-30 11:57:17,804 [INFO] The time difference between the client and the server is within range 68.700 ms..72.185 ms
+client 2023-07-30 11:57:17,804 [INFO] Running the workload 'CM_MLPERF_RUN_COUNT=$(cat ${CM_RUN_DIR}/count.txt); echo ${CM_MLPERF_RUN_COUNT}; CM_MLPERF_RUN_COUNT=$((CM_MLPERF_RUN_COUNT+1)); echo ${CM_MLPERF_RUN_COUNT} > ${CM_RUN_DIR}/count.txt && if [ ${CM_MLPERF_RUN_COUNT} -eq "1" ]; then export CM_MLPERF_USER_CONF=${CM_MLPERF_RANGING_USER_CONF}; else export CM_MLPERF_USER_CONF=${CM_MLPERF_TESTING_USER_CONF}; fi && cd "/home/arjun/CM/repos/local/cache/4d313212e3dd40ad/inference/language/bert" && /usr/bin/python3 run.py --backend=pytorch --scenario=SingleStream --mlperf_conf "/home/arjun/CM/repos/local/cache/4d313212e3dd40ad/inference/mlperf.conf" --user_conf "${CM_MLPERF_USER_CONF}"'
+client 2023-07-30 12:07:21,925 [INFO] Sending command to the server: 'time'
+client 2023-07-30 12:07:21,929 [INFO] Got response: '1690715241.855054'
+client 2023-07-30 12:07:21,929 [INFO] The time difference between the client and the server is within range 70.127 ms..74.244 ms
+client 2023-07-30 12:07:21,929 [INFO] Sending command to the server: 'session,2023-07-30_11-51-25,stop,testing'
+client 2023-07-30 12:07:32,856 [INFO] Got response: 'OK'
+client 2023-07-30 12:07:32,856 [INFO] Sending command to the server: 'time'
+client 2023-07-30 12:07:32,858 [INFO] Got response: '1690715252.78218'
+client 2023-07-30 12:07:32,859 [INFO] The time difference between the client and the server is within range 74.007 ms..76.912 ms
+client 2023-07-30 12:07:32,859 [INFO] Copying loadgen logs from '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/run_1' to '/home/arjun/results_dir/valid_results/phoenix_Amd_Am5-reference-cpu-pytorch-v2.0.1-default_config/bert-99/singlestream/performance/tmp_power/run_1'
+client 2023-07-30 12:07:32,860 [INFO] Done runs
