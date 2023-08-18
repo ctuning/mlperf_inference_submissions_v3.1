@@ -31237,6 +31237,151 @@
         "Availability":"available",
         "Division":"closed",
         "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":36.414958,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config\/resnet50\/singlestream",
+        "framework":"onnxruntime v1.15.1",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1078":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"MultiStream",
+        "Result":260.542042,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config\/resnet50\/multistream",
+        "framework":"onnxruntime v1.15.1",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1079":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":69.2985,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config\/resnet50\/offline",
+        "framework":"onnxruntime v1.15.1",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s"
+    },
+    "1080":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"SingleStream",
+        "Result":597.547834,
+        "Accuracy":90.8748722972,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config\/bert-99\/singlestream",
+        "framework":"onnxruntime v1.15.1",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1081":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"Offline",
+        "Result":1.7005,
+        "Accuracy":90.8748722972,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-onnxruntime-v1.15.1-default_config\/bert-99\/offline",
+        "framework":"onnxruntime v1.15.1",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s"
+    },
+    "1082":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
         "SystemName":"Collabora AMD ThreadRipper",
         "Platform":"51535c5ae107-reference-cpu-ncnn-vdefault-default_config",
         "Model":"resnet50",
@@ -31261,7 +31406,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1078":{
+    "1083":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31290,7 +31435,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1079":{
+    "1084":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31319,7 +31464,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1080":{
+    "1085":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31348,7 +31493,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1081":{
+    "1086":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31377,7 +31522,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1082":{
+    "1087":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31406,7 +31551,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1083":{
+    "1088":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31435,7 +31580,7 @@
         "has_power":false,
         "Units":"Queries\/s"
     },
-    "1084":{
+    "1089":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31464,7 +31609,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1085":{
+    "1090":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31493,7 +31638,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1086":{
+    "1091":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31522,7 +31667,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1087":{
+    "1092":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31551,7 +31696,152 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1088":{
+    "1093":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"SingleStream",
+        "Result":7.88175,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config\/resnet50\/singlestream",
+        "framework":"tf v2.13.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1094":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"MultiStream",
+        "Result":34.287042,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config\/resnet50\/multistream",
+        "framework":"tf v2.13.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1095":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":307.693,
+        "Accuracy":76.456,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config\/resnet50\/offline",
+        "framework":"tf v2.13.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s"
+    },
+    "1096":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"SingleStream",
+        "Result":105.121042,
+        "Accuracy":90.8741071683,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config\/bert-99\/singlestream",
+        "framework":"tf v2.13.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1097":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"Offline",
+        "Result":9.14169,
+        "Accuracy":90.8741071683,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-tf-v2.13.0-default_config\/bert-99\/offline",
+        "framework":"tf v2.13.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":1,
+        "has_power":false,
+        "Units":"Samples\/s"
+    },
+    "1098":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31580,7 +31870,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1089":{
+    "1099":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31609,7 +31899,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1090":{
+    "1100":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31638,7 +31928,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1091":{
+    "1101":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31667,7 +31957,65 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1092":{
+    "1102":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-pytorch-v2.0.0-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"SingleStream",
+        "Result":471.039041,
+        "Accuracy":90.8748722972,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-pytorch-v2.0.0-default_config\/bert-99\/singlestream",
+        "framework":"pytorch v2.0.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Latency (ms)"
+    },
+    "1103":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"edge",
+        "SystemName":"macbook_pro_m1_2",
+        "Platform":"macbook_pro_m1_2-reference-cpu-pytorch-v2.0.0-default_config",
+        "Model":"bert-99",
+        "MlperfModel":"bert-99",
+        "Scenario":"Offline",
+        "Result":2.26803,
+        "Accuracy":90.8748722972,
+        "number_of_nodes":1,
+        "host_processor_model_name":"undefined",
+        "host_processors_per_node":1,
+        "host_processor_core_count":10,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/macbook_pro_m1_2-reference-cpu-pytorch-v2.0.0-default_config\/bert-99\/offline",
+        "framework":"pytorch v2.0.0",
+        "operating_system":" (darwin-22.5.0)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":1,
+        "has_power":false,
+        "Units":"Samples\/s"
+    },
+    "1104":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31696,7 +32044,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1093":{
+    "1105":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31725,7 +32073,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1094":{
+    "1106":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31754,7 +32102,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1095":{
+    "1107":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31783,7 +32131,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1096":{
+    "1108":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31812,7 +32160,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1097":{
+    "1109":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31841,7 +32189,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1098":{
+    "1110":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31870,7 +32218,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1099":{
+    "1111":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31899,7 +32247,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1100":{
+    "1112":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31928,7 +32276,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1101":{
+    "1113":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31957,7 +32305,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1102":{
+    "1114":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31986,7 +32334,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1103":{
+    "1115":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -32015,7 +32363,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1104":{
+    "1116":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
