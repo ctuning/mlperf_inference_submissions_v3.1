@@ -31410,6 +31410,64 @@
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
+        "SystemType":"datacenter",
+        "SystemName":"gcp_g2.standard.4",
+        "Platform":"gcp_g2.standard.4-nvidia_original-gpu-tensorrt-vdefault-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Server",
+        "Result":11703.8,
+        "Accuracy":76.158,
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) CPU @ 2.20GHz",
+        "host_processors_per_node":1,
+        "host_processor_core_count":2,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/gcp_g2.standard.4-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/server",
+        "framework":"tensorrt vdefault",
+        "operating_system":"Ubuntu 22.04 (linux-5.19.0-1030-gcp-glibc2.35)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Queries\/s"
+    },
+    "1084":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
+        "SystemType":"datacenter",
+        "SystemName":"gcp_g2.standard.4",
+        "Platform":"gcp_g2.standard.4-nvidia_original-gpu-tensorrt-vdefault-default_config",
+        "Model":"resnet50",
+        "MlperfModel":"resnet",
+        "Scenario":"Offline",
+        "Result":12557.8,
+        "Accuracy":76.158,
+        "number_of_nodes":1,
+        "host_processor_model_name":"Intel(R) Xeon(R) CPU @ 2.20GHz",
+        "host_processors_per_node":1,
+        "host_processor_core_count":2,
+        "accelerator_model_name":null,
+        "accelerators_per_node":0,
+        "Location":"closed\/CTuning\/results\/gcp_g2.standard.4-nvidia_original-gpu-tensorrt-vdefault-default_config\/resnet50\/offline",
+        "framework":"tensorrt vdefault",
+        "operating_system":"Ubuntu 22.04 (linux-5.19.0-1030-gcp-glibc2.35)",
+        "notes":"Powered by MLCommons Collective Mind framework (CK2). ",
+        "compliance":1,
+        "errors":0,
+        "version":"v3.1",
+        "inferred":0,
+        "has_power":false,
+        "Units":"Samples\/s"
+    },
+    "1085":{
+        "Organization":"CTuning",
+        "Availability":"available",
+        "Division":"closed",
         "SystemType":"edge",
         "SystemName":"Collabora AMD ThreadRipper",
         "Platform":"51535c5ae107-reference-gpu-onnxruntime-v1.15.1-default_config",
@@ -31435,7 +31493,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1084":{
+    "1086":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31464,7 +31522,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1085":{
+    "1087":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31493,7 +31551,7 @@
         "has_power":false,
         "Units":"Samples\/s"
     },
-    "1086":{
+    "1088":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31522,7 +31580,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1087":{
+    "1089":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31551,7 +31609,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1088":{
+    "1090":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31580,7 +31638,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1089":{
+    "1091":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31609,7 +31667,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1090":{
+    "1092":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31638,7 +31696,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1091":{
+    "1093":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31667,7 +31725,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1092":{
+    "1094":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31696,7 +31754,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1093":{
+    "1095":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31725,7 +31783,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1094":{
+    "1096":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31754,7 +31812,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1095":{
+    "1097":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31783,7 +31841,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1096":{
+    "1098":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31812,7 +31870,7 @@
         "has_power":true,
         "Units":"Latency (ms)"
     },
-    "1097":{
+    "1099":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31841,7 +31899,7 @@
         "has_power":true,
         "Units":"millijoules"
     },
-    "1098":{
+    "1100":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31870,7 +31928,7 @@
         "has_power":true,
         "Units":"Samples\/s"
     },
-    "1099":{
+    "1101":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31899,7 +31957,7 @@
         "has_power":true,
         "Units":"Watts"
     },
-    "1100":{
+    "1102":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31928,7 +31986,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1101":{
+    "1103":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
@@ -31957,7 +32015,7 @@
         "has_power":false,
         "Units":"Latency (ms)"
     },
-    "1102":{
+    "1104":{
         "Organization":"CTuning",
         "Availability":"available",
         "Division":"closed",
